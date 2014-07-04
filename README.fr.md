@@ -412,56 +412,55 @@ Absolute links have to be updated whenever the URL changes (e.g. repository rena
 
 [*En savoir plus about relative links.*](https://help.github.com/articles/relative-links-in-readmes)
 
-### Metadata and Plugin Support for GitHub Pages
+### Métadonnées et support des plugins pour GitHub Pages
 Within Jekyll pages and posts, repository information is available within the `site.github` namespace, and can be displayed, for example, using `{{ site.github.project_title }}`.
 
 The Jemoji and jekyll-mentions plugins enable [emoji](#emojis) and [@mentions](https://github.com/blog/821) in your Jekyll posts and pages to work just like you'd expect when interacting with a repository on GitHub.com.
 
 [*En savoir plus about repository metadata and plugin support for GitHub Pages.*](https://github.com/blog/1797-repository-metadata-and-plugin-support-for-github-pages)
 
-### Viewing YAML Metadata in your Documents
-Many blogging websites, like [Jekyll](http://jekyllrb.com/) with [GitHub Pages](http://pages.github.com/), depend on some YAML-formatted metadata at the beginning of your post. GitHub will render this metadata as a horizontal table, for easier reading
+### Présentation des métadonnées YAML dans vos documents
+De nombreux systèmes de blog, tels que [Jekyll](http://jekyllrb.com/) avec [GitHub Pages](http://pages.github.com/), s'appuient sur certaines métadonnées au format YAML au début de votre billet. GitHub affiche ces métadonnées dans un tableau horizontal, pour une meilleure lisibilité.
 
-![YAML metadata](https://camo.githubusercontent.com/47245aa16728e242f74a9a324ce0d24c0b916075/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f36343035302f313232383236372f65303439643063362d323761302d313165332d396464382d6131636432323539393334342e706e67)
+![Métadonnées YAML](https://camo.githubusercontent.com/47245aa16728e242f74a9a324ce0d24c0b916075/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f36343035302f313232383236372f65303439643063362d323761302d313165332d396464382d6131636432323539393334342e706e67)
 
-[*En savoir plus about viewing YAML metadata in your documents.*](https://github.com/blog/1647-viewing-yaml-metadata-in-your-documents)
+[*En savoir plus sur la présentation des métadonnées YAML dans vos documents.*](https://github.com/blog/1647-viewing-yaml-metadata-in-your-documents)
 
-### Rendering Tabular Data
-GitHub supports rendering tabular data in the form of `.csv` (comma-separated) and `.tsv` (tab-separated) files.
+### Rendu des données tabulaires
+GitHub supporte le rendu de données tabulaires sous forme de fichiers `.csv` (comma-separated) et `.tsv` (tab-separated).
 
-![Tabular data](https://camo.githubusercontent.com/1b6dd0157ffb45d9939abf14233a0cb13b3b4dfe/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3238323735392f3937363436322f33323038336463652d303638642d313165332d393262322d3566323863313061353035392e706e67)
+![Données tabulaires](https://camo.githubusercontent.com/1b6dd0157ffb45d9939abf14233a0cb13b3b4dfe/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3238323735392f3937363436322f33323038336463652d303638642d313165332d393262322d3566323863313061353035392e706e67)
 
-[*En savoir plus about rendering tabular data.*](https://github.com/blog/1601-see-your-csvs)
+[*En savoir plus le rendu des données tabulaires.*](https://github.com/blog/1601-see-your-csvs)
 
 ### Diffs
-#### Rendered Prose Diffs
-Commits and pull requests including rendered documents supported by GitHub (e.g. Markdown) feature *source* and *rendered* views.
+#### Rendu des diffs de prose    $FIXME$ Improve?
+Les commits et pull requests incluant des "documents avec rendu visuel" supportés par GitHub (ex. Markdown) disposent des vues *source* et *rendered*.
 
-![Source / Rendered view](https://github-images.s3.amazonaws.com/help/repository/rendered_prose_diff.png)
+![Vue Source / Rendered](https://github-images.s3.amazonaws.com/help/repository/rendered_prose_diff.png)
 
-Click the "rendered" button to see the changes as they'll appear in the rendered document. Rendered prose view is handy when you're adding, removing, and editing text:
+Cliquez sur le bouton "rendered" pour voir les changements tels qu'ils apparaitront dans le document avec son rendu visuel. La vue Rendered est utile lorsque vous ajoutez, supprimez ou modifiez du texte :
 
-![Rendered Prose Diffs](https://f.cloud.github.com/assets/17715/2003056/3997edb4-862b-11e3-90be-5e9586edecd7.png)
+![Rendu des diffs de prose](https://f.cloud.github.com/assets/17715/2003056/3997edb4-862b-11e3-90be-5e9586edecd7.png)
 
-[*En savoir plus about rendered prose diffs.*](https://github.com/blog/1784-rendered-prose-diffs)
+[*En savoir plus sur le rendu des diffs de prose.*](https://github.com/blog/1784-rendered-prose-diffs)
 
-#### Diffable Maps
-Any time you view a commit or pull request on GitHub that includes geodata, GitHub will render a visual representation of what was changed.
+#### Diff pour les Maps
+Chaque fois que vous visualisez sur GitHub un commit ou un pull request incluant des données cartographiques, GitHub affiche une représentation visuelle de ce qui a changé.
 
-[![Diffable Maps](https://f.cloud.github.com/assets/282759/2090660/63f2e45a-8e97-11e3-9d8b-d4c8078b004e.gif)](https://github.com/benbalter/congressional-districts/commit/2233c76ca5bb059582d796f053775d8859198ec5)
+[![Diff pour les Maps](https://f.cloud.github.com/assets/282759/2090660/63f2e45a-8e97-11e3-9d8b-d4c8078b004e.gif)](https://github.com/benbalter/congressional-districts/commit/2233c76ca5bb059582d796f053775d8859198ec5)
 
-[*En savoir plus about diffable maps.*](https://github.com/blog/1772-diffable-more-customizable-maps)
+[*En savoir plus sur le diff pour les Maps.*](https://github.com/blog/1772-diffable-more-customizable-maps)
 
-#### Expanding Context in Diffs
+#### Etendre le contexte dans les diffs    $FIXME$
 Using the *unfold* button in the gutter of a diff, you can reveal additional lines of context with a click. You can keep clicking *unfold* until you've revealed the whole file, and the feature is available anywhere GitHub renders diffs.
 
 ![Expanding Context in Diffs](https://f.cloud.github.com/assets/22635/1610539/863c1f64-5584-11e3-82bf-151b406a272f.gif)
 
 [*En savoir plus about expanding context in diffs.*](https://github.com/blog/1705-expanding-context-in-diffs)
 
-#### Diff or Patch of Pull Request
-You can get the diff of a Pull Request by adding a `.diff` or `.patch`
-extension to the end of the URL. Par exemple :
+#### Diff ou patch de Pull Request
+Vous pouvez obtenir le diff d'un Pull Request en ajoutant l'extension `.diff` ou `.patch` à la fin de l'URL. Par exemple :
 
 ```
 https://github.com/tiimgreen/github-cheat-sheet/pull/15
@@ -469,7 +468,7 @@ https://github.com/tiimgreen/github-cheat-sheet/pull/15.diff
 https://github.com/tiimgreen/github-cheat-sheet/pull/15.patch
 ```
 
-The `.diff` extension would give you this in plain text:
+L'extension `.diff` vous donne ceci en texte plein :
 
 ```
 diff --git a/README.md b/README.md
@@ -490,42 +489,42 @@ index 88fcf69..8614873 100644
 (...)
 ```
 
-#### Rendering and diffing images
-GitHub can display several common image formats, including PNG, JPG, GIF, and PSD. In addition, there are several ways to compare differences between versions of those image formats.
+#### Rendu et diffing des images
+GitHub peut afficher plusieurs formats d'image communément rencontrés, dont le PNG, le JPG, le GIF, et le PSD. De plus, il y a plusieurs façons de comparer les differences entre les versions ce ces formats d'image.
 
 [![Diffable PSD](https://cloud.githubusercontent.com/assets/2546/3165594/55f2798a-eb56-11e3-92e7-b79ad791a697.gif)](https://github.com/blog/1845-psd-viewing-diffing)
 
-[*En savoir plus about rendering and diffing images.*](https://help.github.com/articles/rendering-and-diffing-images)
+[*En savoir plus sur le rendu et le diffing des images.*](https://help.github.com/articles/rendering-and-diffing-images)
 
 ### Hub
-[Hub](https://github.com/github/hub) is a commande line Git wrapper that gives you extra features and commandes that make working with GitHub easier.
+[Hub](https://github.com/github/hub) est outil en ligne de commande, wrapper autour de Git, qui vous apporte des fonctionnalités et commandes supplémentaires pour faciliter l'utilisation de GitHub.
 
-This allows you to do things like:
+Cela permet de faire des choses telles que :
 
 ```bash
 $ hub clone tiimgreen/toc
 ```
 
-[*Check out some more cool commandes Hub has to offer.*](https://github.com/github/hub#commandes)
+[*Découvrer d'autres commandes intéressantes offertes par Hub.*](https://github.com/github/hub#commandes)
 
-### Decreasing Contributor Friction
-If you want people to use and contribute to your project, you need to start by answering their most basic questions. What does the project do? How do I use it? How am I allowed to use it? How do I contribute? How do I get up and running in development? How do I make sure my new features didn't break old functionality?
+### Réduction de la friction entre contributeurs
+Si vous voulez que les gens utilisent votre projet et y contribuent, vous devez commencer par répondre à leurs questions les plus simples. Que fait le projet ? Comment l'utilise-t-on ? Comment suis-je autorisé à l'utiliser ? Comment contribue-t-on ? Comment démarre-t-on pour développer ? Comment puis-je m'assurer que mes nouvelles fonctionnalités n'ont pas introduit de régression sur d'anciennes fonctionnalités ?
 
-[Friction](https://github.com/rafalchmiel/friction) is a commande line script that will check your project for common [answers to these questions](https://github.com/rafalchmiel/friction/wiki). This is some example output:
+[Friction](https://github.com/rafalchmiel/friction) est un script en ligne de commande qui vérifie votre projet par rapport aux [réponses classiques à ces questions](https://github.com/rafalchmiel/friction/wiki). Voici un exemple de résultat :
 
-[![Friction output](http://i.imgur.com/4EgpWo4.png)](https://github.com/rafalchmiel/friction)
+[![Résultat d'exécution de Friction](http://i.imgur.com/4EgpWo4.png)](https://github.com/rafalchmiel/friction)
 
-*Friction supports MRI 2.1.0, MRI 2.0.0, and MRI 1.9.3.*
+*Friction supporte MRI 2.1.0, MRI 2.0.0, et MRI 1.9.3.*
 
-### Contributing Guidelines
-Adding a `CONTRIBUTING` file to the root of your repository will add a link to your file when a contributor creates an Issue or opens a Pull Request.
+### Guidelines pour contribuer
+Si vous ajoutez un fichier `CONTRIBUTING` à la racine de votre dépôt, un lien vers celui-ci est ajouté à chaque nouvelle contribution de type Issue ou Pull Request.
 
 ![Contributing Guidelines](https://camo.githubusercontent.com/71995d6b0e620a9ef1ded00a04498241c69dd1bf/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f736b697463682f6973737565732d32303132303931332d3136323533392e6a7067)
 
-[*En savoir plus about contributing guidelines.*](https://github.com/blog/1184-contributing-guidelines)
+[*En savoir plus sur les guidelines pour contribuer.*](https://github.com/blog/1184-contributing-guidelines)
 
-### GitHub Resources
-| Title | Link |
+### Ressources GitHub
+| Titre | Lien |
 | ----- | ---- |
 | GitHub Explore | https://github.com/explore |
 | GitHub Blog | https://github.com/blog |
@@ -533,8 +532,8 @@ Adding a `CONTRIBUTING` file to the root of your repository will add a link to y
 | GitHub Training | http://training.github.com/ |
 | GitHub Developer | https://developer.github.com/ |
 
-#### GitHub Talks
-| Title | Link |
+#### Talks GitHub
+| Titre | Lien |
 | ----- | ---- |
 | How GitHub Uses GitHub to Build GitHub | https://www.youtube.com/watch?v=qyz3jkOBbQY |
 | Introduction to Git with Scott Chacon of GitHub | https://www.youtube.com/watch?v=ZDR433b0HJY |
@@ -543,54 +542,54 @@ Adding a `CONTRIBUTING` file to the root of your repository will add a link to y
 | More Git and GitHub Secrets | https://www.youtube.com/watch?v=p50xsL-iVgU |
 
 ## Git
-### Previous Branch
-To move to the previous branch in Git:
+### Branche précédente
+Pour passer de la branche courante à la branche précédente dans Git :
 
 ```bash
 $ git checkout -
-# Switched to branch 'master'
+# Passage à la branche 'master'
 
 $ git checkout -
-# Switched to branch 'next'
+# Passage à la branche 'next'
 
 $ git checkout -
-# Switched to branch 'master'
+# Passage à la branche 'master'
 ```
 
-[*En savoir plus about Git branching.*](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
+[*En savoir plus sur le Git branching.*](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
 
 ### Stripspace
 
 Git Stripspace:
 
-- Strips trailing whitespace
-- Collapses newlines
-- Adds newline to end of file
+- Enlève les espaces de fin de ligne (FIXME trailing)
+- Collapses newlines (FIXME)
+- Insère une nouvelle ligne en fin de fichier
 
-A file must be passed when calling the commande, e.g.:
+Un fichier doit être passé en argument à l'appel de la commande, par ex. :
 ```bash
 $ git stripspace < README.md
 ```
 
-[*En savoir plus about the Git `stripspace` commande.*](http://git-scm.com/docs/git-stripspace)
+[*En savoir plus sur la commande Git `stripspace`.*](http://git-scm.com/docs/git-stripspace)
 
-### Checking out Pull Requests
+### Récupérer des Pull Requests
 
-Pull Requests are special branches on the GitHub repository which can be retrieved locally in several ways:
+Les Pull Requests sont des branches spéciales sur le dépôt GitHub qui peuvent être récupérées localement de plusieurs manières :
 
-Retrieve a specific Pull Request and store it temporarily in `FETCH_HEAD` for quickly `diff`ing or `merge`ing:
+Récupérer un Pull Request spécifique et le stocker temporairement dans le `FETCH_HEAD` pour faire rapidement un `diff` ou un `merge` :
 
 ```bash
 $ git fetch origin refs/pull/[PR-Number]/head
 ```
 
-Acquire all Pull Request branches as local remote branches by refspec:
+Récupérer toutes les branches de Pull Request en tant que branches distantes (remote) locales par refspec :
 
 ```bash
 $ git fetch origin '+refs/pull/*/head:refs/remotes/origin/pr/*'
 ```
 
-Or setup the remote to fetch Pull Requests automatically by adding these corresponding lines in your repository's `.git/config`:
+Ou paramétrer le remote pour récupérer les Pull Requests automatiquement en ajoutant dans le fichier `.git/config` de votre dépôt des lignes telles que :
 
 ```
 [remote "origin"]
@@ -605,115 +604,115 @@ Or setup the remote to fetch Pull Requests automatically by adding these corresp
     fetch = +refs/pull/*/head:refs/remotes/origin/pr/*
 ```
 
-For Fork-based Pull Request contributions, it's useful to `checkout` a remote branch representing the Pull Request and create a local branch from it:
+Pour les contributions de Pull Requests basés sur un fork, cela aide de faire un `checkout` d'une branche remote représentant le Pull Request et de créer une branche locale à partir de celle-ci :
 
 ```bash
 $ git checkout pr/42 pr-42
 ```
 
-[*En savoir plus about checking out pull requests locally.*](https://help.github.com/articles/checking-out-pull-requests-locally)
+[*En savoir plus sur la récupération de Pull Requests en local.*](https://help.github.com/articles/checking-out-pull-requests-locally)
 
-### Empty Commits :trollface:
-Commits can be pushed with no code changes by adding `--allow-empty`:
+### Commits vides :trollface:
+Il est possible de faire des commits de code sans aucun changement en ajoutant `--allow-empty` :
 
 ```bash
 $ git commit -m "Big-ass commit" --allow-empty
 ```
 
-Some use-cases for this (that make sense), include:
+Voici des cas d'utilisation (qui ont du sens) pour ça :
 
- - Annotating the start of a new bulk of work or a new feature.
- - Documenting when you make changes to the project that aren't code related.
- - Communicating with people using your repository.
- - The first commit of a repo, as the first commit cannot be rebased later: `git commit -m "init repo" --allow-empty`.
+ - Annoter le début d'un nouveau lot de changements ou d'une nouvelle fonctionnalité.
+ - Documenter les changements non relatifs à du code que vous faites pour le project.
+ - Communiquer avec les gens en utilisant le dépôt.
+ - Le premier commit d'un dépôt, vu que le premier commit ne peut pas être rebasé par la suite : `git commit -m "init repo" --allow-empty`.
 
-### Styled Git Status
-Running:
+### Personnaliser le format du status Git
+Exécuter :
 
 ```bash
 $ git status
 ```
 
-Produces:
+Produit :
 
 ![git status](http://i.imgur.com/o3PEHAA.png)
 
-By adding `-sb`:
+En ajoutant `-sb`:
 
 ```bash
 $ git status -sb
 ```
 
-This is produced:
+Cela produit :
 
 ![git status -sb](http://i.imgur.com/xNI1bT0.png)
 
-[*En savoir plus about the Git `status` commande.*](http://git-scm.com/docs/git-status)
+[*En savoir plus sur la commande Git `status`.*](http://git-scm.com/docs/git-status)
 
-### Styled Git Log
-Running:
+### Personnaliser le format du log Git
+Exécuter :
 
 ```bash
 $ git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 ```
 
-Produces:
+Produit :
 
 ![git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative](http://i.imgur.com/EARRQyJ.png)
 
-Credit to [Palesz](http://stackoverflow.com/users/88355/palesz)
+Crédit à [Palesz](http://stackoverflow.com/users/88355/palesz)
 
-*This can be aliased using the instructions found [here](https://github.com/tiimgreen/github-cheat-sheet#aliases).*
+*Il est possible de créer un alias pour ça en suivant les instructions [ici](https://github.com/tiimgreen/github-cheat-sheet#aliases).*
 
-[*En savoir plus about the Git `log` commande.*](http://git-scm.com/docs/git-log)
+[*En savoir plus sur la commande Git `log`.*](http://git-scm.com/docs/git-log)
 
-### Git Query
-A Git query allows you to search all your previous commit messages and find the most recent one matching the query.
+### Requête Git
+Une requête Git permet de chercher dans tous vos précédents messages de commit et trouver le plus récente correspondant à la requête.
 
 ```bash
 $ git show :/query
 ```
 
-Where `query` (case-sensitive) is the term you want to search, this then finds the last one and gives details on the lines that were changed.
+Où `query` (respecter la casse) est le terme que vous voulez chercher. Trouve la dernière occurence et donne des détails sur les lignes qui ont été changées.
 
 ```bash
 $ git show :/typo
 ```
 ![git show :/query](http://i.imgur.com/icaGiNt.png)
 
-*Press `q` to quit.*
+*Entrez `q` pour quitter.*
 
-### Merged Branches
-Running:
+### Branches fusionnées
+Exécuter:
 
 ```bash
 $ git branch --merged
 ```
 
-Will give you a list of all branches that have been merged into your current branch.
+Donne la liste de toutes les branches qui ont été fusionnées dans votre branche courante.
 
-Conversely:
+A l'inverse:
 
 ```bash
 $ git branch --no-merged
 ```
 
-Will give you a list of branches that have not been merged into your current branch.
+Donne la liste des branches qui n'ont pas été fusionnées dans votre branche courante.
 
-[*En savoir plus about the Git `branch` commande.*](http://git-scm.com/docs/git-branch)
+[*En savoir plus sur la commande Git `branch`.*](http://git-scm.com/docs/git-branch)
 
-### Web Server for Browsing Local Repositories
-Use the Git `instaweb` commande to instantly browse your working repository in `gitweb`. This commande is a simple script to set up `gitweb` and a web server for browsing the local repository.
+### Serveur web pour naviguer dans les dépôts locaux
+Utilisez la commande Git `instaweb` pour naviguer, de manière instantanée, au sein de votre répertoire de travail dans `gitweb`. Cette commmande exécute un script pour configurer `gitweb` et un serveur web pour naviguer dans le dépôt local.  
 
 ```bash
 $ git instaweb
 ```
 
-Opens:
+Ouvre:
 
 ![Git instaweb](http://i.imgur.com/Dxekmqc.png)
 
-[*En savoir plus about the Git `instaweb` commande.*](http://git-scm.com/docs/git-instaweb)
+[*En savoir plus sur la commande Git `instaweb`.*](http://git-scm.com/docs/git-instaweb)
 
 ### Configurations Git
 Votre fichier `.gitconfig` contient tous vos éléments de configuration de Git.
@@ -803,7 +802,7 @@ $ git config --global color.ui 1
 [*En savoir plus sur la commande Git `config`.*](http://git-scm.com/docs/git-config)
 
 ### Ressources Git
-| Title | Link |
+| Titre | Lien |
 | ----- | ---- |
 | Official Git Site | http://git-scm.com/ |
 | Official Git Video Tutorials | http://git-scm.com/videos |
@@ -819,7 +818,7 @@ $ git config --global color.ui 1
 | GitHub Training Kit | http://training.github.com/kit |
 
 #### Livres Git
-| Title | Link |
+| Titre | Lien |
 | ----- | ---- |
 | Pragmatic Version Control Using Git | http://www.pragprog.com/titles/tsgit/pragmatic-version-control-using-git |
 | Pro Git | http://git-scm.com/book |
